@@ -1,0 +1,20 @@
+Grafo cargado desde archivo: grafo3.txt
+Resultados de Dijkstra desde el nodo 0:
+Nodo 0 a Nodo 0 : 0
+Nodo 0 a Nodo 1 : 9
+Nodo 0 a Nodo 2 : 8
+Nodo 0 a Nodo 3 : 13
+Nodo 0 a Nodo 4 : 20
+Nodo 0 a Nodo 5 : 23
+Nodo 0 a Nodo 6 : 21
+
+Recorridos más cortos:
+Nodo 0 a Nodo 1 : Resultados de Floyd-Warshall:
+      0      9      8     13     20     23     21
+      9      0     17     22     29     32     30
+      8     17      0      5     12     15     13
+     13     22      5      0      7     10      8
+     20     29     12      7      0      3      1
+     23     32     15     10      3      0      4
+     21     30     13      8      1      4      0
+

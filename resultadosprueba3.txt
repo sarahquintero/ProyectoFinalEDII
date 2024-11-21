@@ -1,0 +1,46 @@
+Arista agregada: 0 -> 1 con peso 8
+Arista agregada: 0 -> 2 con peso 9
+Arista agregada: 1 -> 3 con peso 5
+Arista agregada: 1 -> 4 con peso 6
+Arista agregada: 2 -> 5 con peso 7
+Arista agregada: 2 -> 6 con peso 2
+Arista agregada: 3 -> 7 con peso 3
+Arista agregada: 4 -> 7 con peso 1
+Arista agregada: 5 -> 8 con peso 6
+Arista agregada: 6 -> 8 con peso 5
+Arista agregada: 7 -> 9 con peso 3
+Arista agregada: 8 -> 9 con peso 6
+Resultados de Dijkstra desde el nodo 1:
+Nodo 1 a Nodo 0 : 8
+Nodo 1 a Nodo 1 : 0
+Nodo 1 a Nodo 2 : 17
+Nodo 1 a Nodo 3 : 5
+Nodo 1 a Nodo 4 : 6
+Nodo 1 a Nodo 5 : 22
+Nodo 1 a Nodo 6 : 19
+Nodo 1 a Nodo 7 : 7
+Nodo 1 a Nodo 8 : 16
+Nodo 1 a Nodo 9 : 10
+
+Recorridos más cortos:
+Nodo 1 a Nodo 0 : 1 -> 0
+Nodo 1 a Nodo 2 : 1 -> 0 -> 2
+Nodo 1 a Nodo 3 : 1 -> 3
+Nodo 1 a Nodo 4 : 1 -> 4
+Nodo 1 a Nodo 5 : 1 -> 4 -> 7 -> 9 -> 8 -> 5
+Nodo 1 a Nodo 6 : 1 -> 0 -> 2 -> 6
+Nodo 1 a Nodo 7 : 1 -> 4 -> 7
+Nodo 1 a Nodo 8 : 1 -> 4 -> 7 -> 9 -> 8
+Nodo 1 a Nodo 9 : 1 -> 4 -> 7 -> 9
+Resultados de Floyd-Warshall:
+      0      8      9     13     14     16     11     15     16     18
+      8      0     17      5      6     22     19      7     16     10
+      9     17      0     19     17      7      2     16      7     13
+     13      5     19      0      4     18     17      3     12      6
+     14      6     17      4      0     16     15      1     10      4
+     16     22      7     18     16      0      9     15      6     12
+     11     19      2     17     15      9      0     14      5     11
+     15      7     16      3      1     15     14      0      9      3
+     16     16      7     12     10      6      5      9      0      6
+     18     10     13      6      4     12     11      3      6      0
+

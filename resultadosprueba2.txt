@@ -1,0 +1,29 @@
+Arista agregada: 0 -> 1 con peso 6
+Arista agregada: 0 -> 2 con peso 8
+Arista agregada: 1 -> 3 con peso 7
+Arista agregada: 2 -> 3 con peso 5
+Arista agregada: 2 -> 4 con peso 9
+Arista agregada: 3 -> 5 con peso 1
+Arista agregada: 4 -> 5 con peso 3
+Resultados de Dijkstra desde el nodo 3:
+Nodo 3 a Nodo 0 : 2147483647
+Nodo 3 a Nodo 1 : 2147483647
+Nodo 3 a Nodo 2 : 2147483647
+Nodo 3 a Nodo 3 : 0
+Nodo 3 a Nodo 4 : 2147483647
+Nodo 3 a Nodo 5 : 1
+
+Recorridos más cortos:
+Nodo 3 a Nodo 0 : No hay camino
+Nodo 3 a Nodo 1 : No hay camino
+Nodo 3 a Nodo 2 : No hay camino
+Nodo 3 a Nodo 4 : No hay camino
+Nodo 3 a Nodo 5 : 3 -> 5
+Resultados de Floyd-Warshall:
+      0      6      8     13     17     14
+    INF      0    INF      7    INF      8
+    INF    INF      0      5      9      6
+    INF    INF    INF      0    INF      1
+    INF    INF    INF    INF      0      3
+    INF    INF    INF    INF    INF      0
+

@@ -1,0 +1,21 @@
+Arista agregada: 0 -> 1 con peso 3
+Arista agregada: 0 -> 2 con peso 9
+Arista agregada: 1 -> 2 con peso 5
+Arista agregada: 1 -> 3 con peso 2
+Arista agregada: 2 -> 3 con peso 4
+Resultados de Dijkstra desde el nodo 0:
+Nodo 0 a Nodo 0 : 0
+Nodo 0 a Nodo 1 : 3
+Nodo 0 a Nodo 2 : 8
+Nodo 0 a Nodo 3 : 5
+
+Recorridos más cortos:
+Nodo 0 a Nodo 1 : 0 -> 1
+Nodo 0 a Nodo 2 : 0 -> 1 -> 2
+Nodo 0 a Nodo 3 : 0 -> 1 -> 3
+Resultados de Floyd-Warshall:
+      0      3      8      5
+      3      0      5      2
+      8      5      0      4
+      5      2      4      0
+
